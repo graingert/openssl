@@ -8,7 +8,7 @@ Subject: man-section
  2 files changed, 6 insertions(+), 3 deletions(-)
 
 diff --git a/Configurations/unix-Makefile.tmpl b/Configurations/unix-Makefile.tmpl
-index 41648c952667..e013d464bd73 100644
+index 66617d6f4f90..68e391c08859 100644
 --- a/Configurations/unix-Makefile.tmpl
 +++ b/Configurations/unix-Makefile.tmpl
 @@ -281,7 +281,8 @@ HTMLDIR=$(DOCDIR)/html
@@ -21,7 +21,7 @@ index 41648c952667..e013d464bd73 100644
  HTMLSUFFIX=html
  
  # For "optional" echo messages, to get "real" silence
-@@ -824,7 +825,8 @@ uninstall_runtime: uninstall_programs uninstall_runtime_libs
+@@ -823,7 +824,8 @@ uninstall_runtime: uninstall_programs uninstall_runtime_libs
  	@[ -n "$(INSTALLTOP)" ] || (echo INSTALLTOP should not be empty; exit 1)
  	@$(ECHO) "*** Installing manpages"
  	$(PERL) $(SRCDIR)/util/process_docs.pl \
